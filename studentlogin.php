@@ -12,8 +12,8 @@
 </div>
 <p class="care1">Exam Result Portal</p>
 <form onsubmit="<?php $self ?>" method="POST" name="login" id='loginform'>
-<pre style='font-family:Poppins,sans-serif'>       Student_Id:<input class="care11" type="text" name="studentid" value="<?php echo isset($_POST['studentid']) ? htmlspecialchars($_POST['studentid'], ENT_QUOTES) : ''; ?>" placeholder="Student_Id"><br></pre>
-<pre style='font-family:Poppins,sans-serif'>Student_Name:<input class="care11" type="password" name="password" value="<?php echo isset($_POST['password']) ? htmlspecialchars($_POST['password'], ENT_QUOTES) : ''; ?>" placeholder="Password"><br></pre>
+<pre style='font-family:Poppins,sans-serif'>Student_Id:<input class="care11" type="text" name="studentid" value="<?php echo isset($_POST['studentid']) ? htmlspecialchars($_POST['studentid'], ENT_QUOTES) : ''; ?>" placeholder="Student_Id"><br></pre>
+<pre style='font-family:Poppins,sans-serif'>Password:<input class="care11" type="password" name="password" value="<?php echo isset($_POST['password']) ? htmlspecialchars($_POST['password'], ENT_QUOTES) : ''; ?>" placeholder="Password"><br></pre>
 <div class="care1">
 <input type="submit" style='background-color:PapayaWhip;border:none;color:MediumVioletRed;padding:5px;' value="Sign in" name="signin"/>
 </div>
